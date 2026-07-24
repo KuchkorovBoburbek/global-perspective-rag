@@ -1,0 +1,29 @@
+# secrets
+.env
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# vector store cache (regenerated per session)
+.faiss_cache/
+*.faiss
+*.pkl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# outputs
+*.docx~
+/outputs/
+
+# notebooks
+.ipynb_checkpoints/
+~$*.docx

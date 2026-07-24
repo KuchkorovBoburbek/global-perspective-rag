@@ -1,0 +1,30 @@
+# Core app
+streamlit>=1.37,<2.0
+
+# LangChain (current supported package split)
+# 100% OpenAI stack: langchain-openai supplies both the chat model (ChatOpenAI)
+# and the embedding model (OpenAIEmbeddings). No Anthropic package required.
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-openai>=0.2.0,<0.4.0
+langchain-text-splitters>=0.3.0,<0.4.0
+
+# Vector store + embeddings
+faiss-cpu>=1.8.0,<2.0.0
+
+# Document processing
+pypdf>=4.0.0,<6.0.0
+tiktoken>=0.7.0,<1.0.0
+
+# Config / export
+python-dotenv>=1.0.0,<2.0.0
+python-docx>=1.1.0,<2.0.0
+
+# NOTE:
+# These are compatibility RANGES, not a locked/tested environment.
+# After you have installed and actually run the app successfully in your
+# environment, freeze the exact versions with:
+#   pip freeze > requirements-lock.txt
+# Do not claim requirements-lock.txt exists or is accurate until you have
+# generated it yourself from a working install.
