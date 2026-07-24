@@ -1,8 +1,8 @@
 # Global News & Paper Multi-Angle Perspective Analyzer
 ### 다국어 관점 차이 및 프레이밍 분석 AI
 
-- 이름: [YOUR NAME]
-- 학번: [YOUR STUDENT ID]
+- 이름: 쿠츠커러프 버부르벡
+- 학번: 20232765
 
 > 이 파일은 `PROJECT_REPORT.docx`의 편집 가능한 원본(source of truth)입니다.
 > 내용을 수정한 뒤 `python -c "..."` 스크립트나 `docx` 스킬을 이용해
